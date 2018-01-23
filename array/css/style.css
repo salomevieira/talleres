@@ -1,0 +1,55 @@
+body{
+    background-image:url(../../validaciones/c11.jpg);
+    color: #fff;
+    font-size: 12px;
+}
+
+header{
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	padding: auto; 
+}
+nav {
+	background:#528fd5;/*color fondo menu*/
+	margin-top:20px;
+	position: relative;/*para dar pocicion relativa */
+	float: center;
+}
+nav ul{
+	list-style: none;/*para quitar los puntos de lista */
+	padding:0; 
+	margin:0;
+	overflow:hidden; 
+}
+nav ul div li{
+	float: left;
+}
+nav ul li a {
+	text-decoration:none;/*para quitar el subrallado*/ 
+	color:#fff;
+	display: block;/*para cambiar el tamaño del pading */
+	padding:5px 10px;
+}
+nav > ul >li{
+	float:left;
+}
+h1,h3{
+	text-align: center;
+}
+.uno{
+	border-radius: 1px solid 	#fff;
+	display: inline-block;
+	margin-top: 0px;
+	padding: 0px;
+	width:49.5% ;
+}
+input{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	width: 20%;
+	display:block;
+	margin:auto;
+ }

@@ -1,0 +1,83 @@
+body {
+	background-image:url(c11.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 1000px;
+	color:white;
+}	
+
+header{
+	width:90%;
+	max-width:1000px;
+	margin:auto; 
+}
+
+nav {
+	background:#528fd5;/*color fondo menu*/
+	margin-top:20px;
+	position: relative;/*para dar pocicion relativa */
+}
+
+nav ul{
+	list-style: none;/*para quitar los puntos de lista */
+	padding:0; 
+	margin:0;
+	overflow:hidden; 
+}
+
+nav > ul >li{
+	float:left;
+}
+nav ul li a {
+	text-decoration:none;/*para quitar el subrallado*/ 
+	color:#fff;
+	display: block;/*para cambiar el tamaño del pading */
+	padding:10px 20px;
+}
+
+nav ul li a:hover {/*cuando pasa el maus cambia de color */
+	background:#3669a3; 	
+}
+nav > ul> li:hover div{
+	display:table;
+}
+
+/*menu interior*/
+nav ul li div {
+	width: 1000px;/*ancho menu */
+	position: absolute;/*poner el submenu debajo*/
+	left:0;/*desplace a la izquierda */
+	background:#ccc;
+	box-sizing: border-box;
+	display: none  ;/*para desaparecer el menu*/
+}
+
+nav ul li div ul  {
+	width:20%;
+	display:table-cell;/*tamaño exacto de cada categoria */ 
+	border-right:1px solid rgba(255,255,255.5);/*para dar un separador */
+	box-sizing:border-box;  
+}
+nav ul li div ul:last-child {/*quitarle el borde al ultimo ul*/
+	border:none;
+}
+nav ul li div ul .titulo a hover{
+background:none;
+}
+
+nav ul li div ul li a{
+color:#000;
+}
+nav ul li div ul li a hover{
+color:#fff;
+}
+
+h1 {
+color:white;
+}
+
+h2{
+ color:white;
+}
+.a1 div{
+	color:grey;
+}
